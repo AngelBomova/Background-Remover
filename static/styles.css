@@ -1,0 +1,15 @@
+body {
+  min-height: 100vh;
+  background: #f6f7fb;
+}
+
+.app-shell {
+  max-width: 560px;
+}
+
+.upload-panel {
+  padding: 1.5rem;
+  background: #ffffff;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+}
