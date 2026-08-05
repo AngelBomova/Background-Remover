@@ -14,8 +14,6 @@ app = Flask(__name__)
 @app.route("/", methods=["GET", "POST"])
 def index():
     if request.method == "POST":
-        # TODO: Import remove from rembg here when wiring up the processing flow.
-        # TODO: Save the uploaded image, remove the background, and return the new file.
         pass
 
     return render_template("index.html")
